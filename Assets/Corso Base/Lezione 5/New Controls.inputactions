@@ -1,0 +1,87 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "04e9d413-a62e-4c7e-b742-8ff1fe927fde",
+            "actions": [
+                {
+                    "name": "AzioneLog",
+                    "type": "Button",
+                    "id": "07d328ea-f80f-4e97-bf6d-b7c8a02584f3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Asse",
+                    "type": "Value",
+                    "id": "dc242364-f450-4eed-8711-9b32cdfa17e9",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5e66dbbd-48fa-4e2d-a286-cd243c94bd8f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AzioneLog",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2907a7b7-0275-41bc-8b63-2fe09ce9f19c",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Asse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "ca07e4da-dcb7-4baf-9f3b-4e94ce903a36",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Asse",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "477cf9f1-35ca-4574-a47f-9c7ea69280fe",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Asse",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "def50f69-4801-4025-8dd3-118cb572a20e",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Asse",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

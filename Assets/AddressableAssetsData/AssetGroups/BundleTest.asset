@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: BundleTest
+  m_EditorClassIdentifier: 
+  m_GroupName: BundleTest
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 353e1ec9141f8094ebf89cefe886347b
+  m_SerializeEntries:
+  - m_GUID: 1068c1ff3ba96674388b00b4e3adf342
+    m_Address: Assets/Corso Avanzato/Lezione 3/ScriptableObject/Data.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+  - m_GUID: 7864f1349cffe2149b1ba42bd87ef5a4
+    m_Address: Assets/Corso Avanzato/Lezione 3/ScriptableObject/Data 2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+  - m_GUID: d02dced0bb3f20c449b3c0b57fc32b23
+    m_Address: Assets/Corso Avanzato/Lezione 3/ScriptableObject/Data 1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 45892a55ce1820340b1371c676edca96, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 38c3ebf98c0486a42bba791967808583, type: 2}
+    - {fileID: 11400000, guid: 0afa61a1bfa8618409ddf455a03bd802, type: 2}
